@@ -1,8 +1,7 @@
 #!/bin/bash
 
 selectst=""
-#for i in ESPEasy*bin
-for i in *bin
+for i in bins/*bin
 do
         selectst="$i $i off $selectst"
 done
